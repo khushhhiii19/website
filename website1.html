@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+    *{
+        margin: 0;
+    }
+    .head1
+    {
+        background-color: rgb(235, 237, 236);
+     
+        position: fixed;
+        top: 0;
+       
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content: space-between;
+       padding: 30px 20px;
+        align-items: center;
+        list-style: none;
+
+        .left{
+          a{
+            color: blue;
+            word-spacing: 5px;
+            
+          }
+        }
+
+        .center{
+            display: flex;
+            gap: 30px;
+            
+        }
+        .right{
+            display: flex;
+            gap: 20px;
+        }
+
+        
+   
+    }
+
+    .content
+    {
+        color: black;
+        size: 10px;
+    }
+
+    .text{
+        margin: 120px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .text-first{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        font-size: xx-large;
+             
+    }
+
+    .text-second{
+        align-self: flex-end;
+    }
+    .f{
+       font-size: medium; 
+    }
+
+    .search
+    {
+        padding-left: 50px;
+    }
+    span{
+        color: blue;
+    }
+    .s{
+        font-size: large;
+    }
+
+    .i1
+    {
+        height: 700px;
+        width: 1450px;
+    }
+    .ib
+    {
+        text-align: center;
+        font-size: larger;
+    }
+    .logo
+    {
+        height: 200px;
+        width: auto;
+    }
+
+    .t3
+    {
+        display: flex;
+        padding-left: 50px;
+    }
+
+    .box
+    {
+        height: 390px;
+        width: 460px;
+        border: 1px solid rgb(189, 183, 183);
+        align-items: center;
+        cursor: pointer;   
+    }
+    .box:hover
+    {
+        border: 2px solid black;
+    }
+    
+    .grid
+    {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        grid-template-columns: auto auto auto ;
+    } 
+
+    .d7
+    {
+        display: flex;
+        align-items: center;
+        
+    }
+    .t7
+    {
+        padding-left: 20px;
+    }
+
+    .div2
+    {
+        display: flex;
+        
+    }
+    .icon
+    {
+        align-self: flex-end;
+        padding-left: 700px;
+    }
+
+    .flex
+    {
+        display: flex;
+        gap: 40px;
+    }
+    .box2
+    { 
+        height: 300px;
+        width: 300px;
+        border: 1px solid rgb(189, 183, 183);
+        border size: 350px ;
+        align-items: center;
+        cursor: pointer;   
+
+    }
+    .box2:hover
+    {
+        border: 2px solid black;
+    }
+
+    .icon3
+    {
+        gap: 5px;
+        list-style: none;
+        margin: 30px 0;
+    }
+    
+    .fa-solid 
+    {
+        padding: 20px;
+    }
+
+    .tt4
+    {
+        text-align: center;
+    }
+
+    .monkey
+    {
+        border: 1px;
+        padding: ;
+    }
+
+    .icon-main{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        align-self: flex-end;
+    }
+
+    .icon-second{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .t7
+    {
+        margin-bottom: 5px;
+    }
+    .main2
+    {
+        display: flex;
+    }
+     
+    .img11
+    {
+        padding-left: 400px;
+    }
+
+    .img{
+        padding-left: 150px;
+
+    }
+
+    .blog
+    {
+        color: blue;
+        word-spacing: 3px;
+        padding-left: 100px;
+    }
+    .b1
+    {
+        border: solid 1px black;
+        height: 510px;
+        width: 450px;
+        margin: 10px;
+    }
+
+    .im21
+    {
+       padding: 10px;
+    }
+
+    .text21
+    {
+
+        padding-left: 60px;
+    }
+    .box3
+    {
+        display: flex;
+    }
+
+    .mgls
+    {
+        padding-left: 700px;
+    }
+    .t44
+    {
+        text-align: center;
+    }
+
+    .sb
+    {
+       height: 50px;
+       width: 50px;
+       
+    }
+
+    .ta
+    {
+        height: 50px;
+        width: 500px;
+        
+    }
+
+    .hu
+    {
+        padding left: 100px;
+        color: blue;
+        size: 50px;
+    }
+
+    .last
+    {
+        display: flex;
+        list-style: none;
+        padding: 30px;
+    }
+
+    .li1
+    {
+        padding-left: 50px;
+    }
+
+    .lastmain
+    {
+        display: flex;
+    }
+
+    .last{
+        font-size: larger;
+    }
+
+    .lastest
+    {
+        padding-left: 200px;
+        padding-top: 100px;
+    }
+
+    
+
+    
+
+
+</style>
+<body>
+    <div class="head1">
+      <div class="left">
+        <a><i class="fa-solid fa-arrow-right"> </i>HireUP</a>
+      </div>  
+      <div class="center">
+        <li>home</li>
+        <li>company</li>
+        <li>browse</li>
+        <li>blog</li>
+      </div>
+      <div class="right">
+        <li>post a job</li>
+        <li><button style="color: rgb(241, 241, 247); background-color: blue; padding: 10px;">sing in</button></li>
+      </div>
+
+
+
+    </div>
+
+    <div class="text">
+
+        <div class="text-first">
+            <p class="f"> <span>NEW</span>
+                Stay connected to get upcoming jobs</p>
+            <h2>Find the most <br>exciting jobs in tech</h2>
+        </div>
+        <div class="text-second">
+            <p class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi <br>rhoncus, pharetra leo et.<span> Sign in</span> or <span>sign up</span> to get started!</p>
+        </div>
+    </div>
+
+
+    <div class="search">
+        <form action="#">
+            <input style="height: 50px; width: 500px;" type="text" placeholder="Search.." name="search" >
+            <button>
+                <i  class="fa fa-search" style="font-size: 18px; size: 80px;"></i>
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<div>
+    <img class="i1" src=https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?cs=srgb&dl=pexels-pixabay-302769.jpg&fm=jpg>
+</div>
+
+<div>
+    <p class="ib">Work for industry leading global companies</p>
+</div>
+<br><br><br>
+
+
+
+<div class="logo">
+    <img src="C:\Users\khush\OneDrive\Pictures\Screenshots\Screenshot 2024-01-29 184731.png" alt="">
+</div>
+
+
+
+
+
+
+<div class="t3">
+    <div class="tt3">
+        <h1 class="c3">Explore the latest job openings</h1><br>
+        <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi rhoncus,<br> pharetra leo et, efficitur tortor. Fusce vel convallis magna.</p>
+    </div>
+    <div class="alljobs">
+       <a href="" style="background-color: blue; padding: 3px; color: beige;" >see all jobs</a> 
+    </div>
+
+</div><br><br><br>
+
+
+
+
+<div class="grid">
+    <div class="box"><img src="C:\Users\khush\OneDrive\Desktop\1.png"></div>
+    <div class="box"><img src="C:\Users\khush\OneDrive\Desktop\2.png"></div>
+    <div class="box"><img src="C:\Users\khush\OneDrive\Desktop\3.png"></div>
+    <div class="box"><img src="C:\Users\khush\OneDrive\Desktop\4.png"></div>
+    <div class="box"><img src="C:\Users\khush\OneDrive\Desktop\5.png"></div>
+    <div class="box"><img src="C:\Users\khush\OneDrive\Desktop\6.png"></div>
+</div><br><br><br>
+
+
+<div class="div2">
+
+    <div>
+       <h1 style="font-family: 'Times New Roman', Times, serif;">Work with exciting companies</h1>
+       <p style="color: rgb(57, 56, 56);">Discover more than 1,600 open positions</p>
+    </div>
+    <div class="icon" >
+        <a><i class="fa-solid fa-arrow-right"></i></a>
+        <a><i class="fa-solid fa-arrow-left"></i></a>
+      
+    </div>
+</div>
+
+<br><br>
+
+
+
+
+<div class="flex">
+    <div class="box2"><img style="height: 300px; width: 300px;" src="C:\Users\khush\OneDrive\Desktop\7.png"></div>
+    <div class="box2"><img style="height: 300px; width: 300px;" src="C:\Users\khush\OneDrive\Desktop\8.png"></div>
+    <div class="box2"><img style="height: 300px; width: 300px;" src="C:\Users\khush\OneDrive\Desktop\9.png"></div>
+    <div class="box2"><img style="height: 300px; width: 300px;" src="C:\Users\khush\OneDrive\Desktop\10.png"></div>
+    
+</div>
+<br><br><br>
+
+
+
+
+
+
+<!-- <div class="d7">
+    <div class="img7">
+        <img src="C:\Users\khush\OneDrive\Desktop\man.png" alt="">
+
+    </div> -->
+
+
+
+    
+    <!-- <div class="t7">
+         <p style="color: blue;">WHY CHOOSE US</p>
+         <h1>Build a custom membership<br> site with locked content.</h1>
+         <p style="color: gray;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi<br> rhoncus, pharetra leo et, efficitur tortor. Fusce vel convallis magna, sit <br>amet pulvinar diam. Sed laoreet feugiat consequat.</p>
+        <div class="icon3">
+              <div class="icon-main">
+                <i style="border: 2px solid black;" class="fa-solid fa-user"></i>
+
+                <div class="icon-second">
+                    <h1>Add a feature point here</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+           
+           
+            </div>
+            <div class="icon-main">
+                <i style="border: 2px solid black;" class="fa-solid fa-user"></i>
+
+                <div class="icon-second">
+                    <h1>Add a feature point here</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </div>
+
+            <div class="icon-main">
+                <i style="border: 2px solid black;" class="fa-solid fa-user"></i>
+
+                <div class="icon-second">
+                    <h1>Add a feature point here</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+<br><br><br><br>
+
+
+<!-- <div>
+    <p style="color: rgb(45, 42, 42);" class="p2">Partnership with <span style="color: black;">Glassdoor</span> and <span style="color: black;">LinkedIn</span></p>
+</div>
+<br><br><br> -->
+
+
+
+<div class="tt4">
+    <h5 style="color: blue;">TESTIMONIAL</h5>
+    <h1> See what users say about <br>our job platform</h1>
+</div>
+<br><br><br>
+
+
+
+
+
+<div class="main2">
+ <div class="im">
+
+    <div style="padding: 50px;" class="monkey">
+       <img src="C:\Users\khush\OneDrive\Desktop\m2.png" alt="">
+    </div>
+   
+
+    <div>
+      <p style="padding: 50px;">“Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Sed a mi<br> rhoncus, pharetra leo et, efficitur tortor.<br> Fusce vel convallis magna”<br></p>
+    </div>
+
+    <div>
+        <h6><span style="color: blue; padding: 50px;">David Sinclair</span> - Senior Frontend Developer</h6>
+    </div>
+
+    <div style="padding: 50px;" class="icon2" >
+        <a><i class="fa-solid fa-arrow-right"></i></a>
+        <a><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+ </div>
+ <div class="img11">
+    <img src="C:\Users\khush\OneDrive\Desktop\im1.png" alt="">
+ </div>
+</div> 
+<br><br><br>
+
+
+
+
+
+<div class="blog">
+    <h4>BLOG</h4>
+</div>
+<br>
+
+
+
+
+<div class="main3">
+
+    <div style="padding-left: 100px;" class="h33">
+        <h1>Get the latest news about jobs!</h1>
+    </div>
+
+</div>
+<br><br><br><br>
+
+
+
+
+<div class="box3">
+
+    <div class="b1">
+        <div class="im21">
+            <img src="C:\Users\khush\OneDrive\Desktop\21.png" alt="">
+        </div>
+        <div class="text21">
+            <h5>Resources</h5>
+            <h2>Finding employees in the gig<br> economy</h2><br>
+            <p>OCTOBER 24, 2022</p><br>
+            <p>Read More<a><i class="fa-solid fa-arrow-left"></i></a></p>
+
+        </div>
+
+
+    </div>
+
+    <div class="b1">
+        <div class="im21">
+            <img src="C:\Users\khush\OneDrive\Desktop\22.png" alt="">
+        </div>
+        <div class="text21">
+            <h5>Resources</h5>
+            <h2>Finding employees in the gig<br> economy</h2><br>
+            <p>OCTOBER 24, 2022</p><br>
+            <p>Read More<a><i class="fa-solid fa-arrow-left"></i></a></p>
+
+        </div>
+
+
+    </div>
+
+    <div class="b1">
+        <div class="im21">
+            <img src="C:\Users\khush\OneDrive\Desktop\23.png" alt="">
+        </div>
+        <div class="text21">
+            <h5>Resources</h5>
+            <h2>Finding employees in the gig<br> economy</h2><br>
+            <p>OCTOBER 24, 2022</p><br>
+            <p>Read More<a><i class="fa-solid fa-arrow-left"></i></a></p>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+<br><br><br><br>
+
+
+
+
+
+<div class="mgls">
+   <img src="C:\Users\khush\OneDrive\Desktop\mg1.png" alt=""> 
+</div><br><br><br</body>
+
+
+
+<div class="t44">
+    <h1>Explore a job now!</h1><br><br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris<br> rhoncus pharetra cursus. Suspendisse sodales porta leo, ac<br> placerat ex pretium quis.</p>
+</div>
+
+
+
+<div class="search b">
+    <input class="ta" type="text" placeholder="Search.." name="search" maxlength="250px">
+            <button class="sb">
+                <i class="fa fa-search" style="font-size: 18px ;"></i>
+            </button>
+</div>
+</div><br><br>
+<br>
+
+
+
+<div class="hu">
+    <a><i class="fa-solid fa-arrow-right"> </i>HireUP</a>
+
+</div><br><br><br>
+
+
+<div class="lastmain">
+<div class="last">
+    <div class="li1">
+        <li style="color: gray;">pages</li><br>
+        <li>home</li><br>
+        <li>home v2</li><br>
+        <li>about</li><br>
+        <li>pricing</li><br>
+        <li>jobs</li><br>
+        <li>post a job</li><br>
+    </div>
+    <div class="li1">
+        <li style="color: gray;">account</li><br>
+        <li>sign in</li><br>
+        <li>sign up</li><br>
+        <li>reset password</li><br>
+        <li>user account</li><br>
+    </div>
+    <div class="li1">
+        <li style="color: gray;">templet</li><br>
+        <li>style grid</li><br>
+        <li>changelog</li><br>
+    </div>
+
+</div>
+
+
+<div class="lastest">
+    <p style="color: rgb(48, 47, 47); word-spacing: 2px;">SIGN UP TO OUR NEWSLETTER</p><br><br>
+    <input class="ta" type="text" placeholder="Email Address...." name="search" maxlength="250px">
+    <button style="background-color: blue; size: 50px; padding: 20px;">
+        get started
+    </button>
+</div>
+
+</div>
+</body>
+</html>
+   
